@@ -1,0 +1,180 @@
+/* Global Styles */
+
+* {
+    font-family: Oswald, sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+body {
+    margin 0;
+    background-color: aliceblue;
+}
+
+h1 {
+    font-size: 3.0rem;
+    font-weight: 600;
+}
+
+h2 {
+    font-size: 2.0rem;
+    font-weight: 500;
+}
+
+.content {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.65);
+    width: 100%;
+    margin: 0;
+}
+
+/* Navigation */
+nav {
+    height: 69px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: cyan;
+    color: blueviolet;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2.5px solid purple;
+}
+
+.logo {
+    height: 50px;
+    margin: 10px 30px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    width: 20%;
+}
+
+.navbar a {
+    margin: 15px;
+    color: black;
+}
+
+/* Header */
+header {
+    background-image: url("../images/background.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    padding-top: 69px;
+}
+
+header h1 {
+    max-width: 600px;
+    margin-left: 50px;
+    background-color: rgba(245, 222, 179, 0.4);
+}
+
+h2 {
+    text-align: center;
+}
+
+/* Mission */
+.container {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.mission-content {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1000px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* Clients */
+.clients {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: 100px auto;
+    padding: 0 20px;
+}
+
+.client {
+    width: 450px;
+    min-height: 300px;
+    display: flex;
+    align-items: flex-end;
+    border: 2px solid white;
+}
+
+#big-corpo {
+    background-image: url("../images/background-office.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#huge-org {
+    background-image: url("../images/fancy-office.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#regular-homes {
+    background-image: url("../images/regular-houses.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* Services */
+#services {
+    min-height: 500px;
+    margin: auto;
+    padding-top: 10px;
+    width: 1500px;
+    background-color: ;
+}
+
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.service {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.service img {
+    margin: auto;
+    width: 200px;
+    padding: 10px;
+    height: auto;
+}
+
+.service span {
+    padding: 5px;
+    min-width: 240px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Footer */
+footer {
+    background-color: cyan;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
